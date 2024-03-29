@@ -4,15 +4,13 @@ repositories:
     type: git
     url: git@github.com:sai-hideyasu/autoware_msgs.git
     version: main
-  #追加
   core/autoware_adapi_msgs:
     type: git
-    url: https://github.com/autowarefoundation/autoware_adapi_msgs.git
+    url: git@github.com:sai-hideyasu/autoware_adapi_msgs.git
     version: main
-  #追加
   core/autoware_internal_msgs:
     type: git
-    url: https://github.com/autowarefoundation/autoware_internal_msgs.git
+    url: git@github.com:sai-hideyasu/autoware_internal_msgs.git
     version: main
   core/autoware_common:
     type: git
@@ -42,7 +40,7 @@ repositories:
   universe/external/grid_map:
     type: git
     url: git@github.com:sai-hideyasu/grid_map.git
-    version: ba2f9cb6e62f7ee9c5bac7401391a211e442e459
+    version: sai_fix
   universe/external/morai_msgs:
     type: git
     url: git@github.com:sai-hideyasu/MORAI-ROS2_morai_msgs.git
@@ -68,7 +66,7 @@ repositories:
   sensor_component/external/sensor_component_description:
     type: git
     url: git@github.com:sai-hideyasu/sensor_component_description.git
-    version: main
+    version: add_VLP32
   sensor_component/external/tamagawa_imu_driver:
     type: git
     url: git@github.com:sai-hideyasu/tamagawa_imu_driver.git
